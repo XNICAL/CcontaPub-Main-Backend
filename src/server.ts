@@ -6,7 +6,7 @@ import authRoutes from './routes/authRoutes';
 import swaggerJsDoc from 'swagger-jsdoc';
 import swaggerUi from 'swagger-ui-express';
 import options from './swaggerOptions'; 
-import logger from '../src/logs/logger'; 
+import logger from './logs/logger'; 
 
 dotenv.config();
 connectDB();
