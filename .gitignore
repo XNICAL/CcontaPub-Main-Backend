@@ -1,0 +1,16 @@
+.env
+node_modules/
+
+# Ignorar la carpeta completa de logs
+logs/
+*.log
+
+# Ignorar logs generados por nodemon y PM2
+*.pid
+*.out
+*.err
+
+
+# Ignorar carpetas de construcción o distribución
+dist/
+build/
